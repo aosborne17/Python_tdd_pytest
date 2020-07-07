@@ -12,6 +12,16 @@ class Calc:
     def divide(self, num1, num2):
         return num1 / num2
 
+    def cm_to_inches(self, num1):
+        return num1 / 2.5
+
+    def modulo(self, num1, num2):
+        if num1 % num2 == 0:
+            return True
+        elif num1 % num2 != 0:
+            return False
+
+
 
 
 simple_calc = Calc()
