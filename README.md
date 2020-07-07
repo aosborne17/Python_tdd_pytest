@@ -10,4 +10,9 @@ test file must include the key word TEST\
 
 ## The image below shows many of the commonly used methods in Unit Testing
 
+```bash
+python -m pytest
+```
+This is the code we run in the terminal to run our test
+
 ![Test Image 1](Images\Unit_test_Testcase.jpg)
